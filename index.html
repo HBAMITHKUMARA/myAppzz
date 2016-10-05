@@ -1,0 +1,61 @@
+<html>
+    <head ng-app="myApp">
+        <title>Resume App</title>
+        <script type="text/javascript" src="scripts/angular.min.js"></script>
+        <script type="text/javascript" src="scripts/angular-route.js"></script>
+        <script type="text/javascript" src="modules/mod.js"></script>
+        <link rel="stylesheet" type="text/css" href="styles/style.css">
+    </head>
+    <body ng-controller="myController">
+        <div id="wrap">
+            <div id="header">
+                <ul>
+                    <li><span style="color:palegreen">AMITH KUMARA H B</span></li>
+                    <li><span style="color:azure">AMI</span></li>
+                    <li><span style="color:skyblue">amithkumar.hb@gmail.com</span></li>
+                    <li><span style="color:skyblue">1234567890</span></li>
+                    
+                </ul>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="#/">AMITHKUMARA H B</a></li>
+                    <li><a href="#edu">Education</a></li>
+                    <li><a>Experiance</a></li>
+                    <li><a>Skill Sets</a></li>
+                    <li><a>Achievements</a></li>
+                    <li><a>Personal details</a></li>
+                    <li><a>On Network</a></li>
+                    <li><a>Feedback</a></li>
+                    <li><a>About Page</a></li>
+                    <li><a>Test1</a></li>
+                    <li><a>Test2</a></li>
+                </ul>
+                
+            </div>
+            <!--<div id="vlineg"></div>-->
+            <div id="vlineb"></div>
+            <div id="content">
+                <div ng-view></div>
+                <table>
+                    <tr>
+                        <td>First Name: AMITH KUMARA</td>
+                    </tr>
+                    <tr>
+                        <td>Last Name: H B</td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth: dd/mm/yyyy</td>
+                    </tr>
+                    <tr>
+                        <td>Place: Bengaluru</td>
+                    </tr>
+                </table>
+            </div>
+            <div id="footer"></div>
+            
+            
+            
+        </div>
+    </body>
+</html>

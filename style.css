@@ -1,0 +1,106 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#wrap{
+    width: inherit;
+    height: inherit;
+}
+
+#header{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: grey;
+    color: azure;
+}
+
+#header ul{
+    width: inherit;
+    height: inherit;
+    margin: 0px;
+    color:skyblue
+}
+
+#header li{
+    list-style-type: none;
+    width: auto;
+    height: 40px;
+    margin: 5px;
+    margin-left: 20px;
+    float: left;
+    color: azure;
+    text-align: center;
+    font-size: 35px;
+    font-family: serif;
+}
+
+#menu{
+    position: absolute;
+    width: 300px;
+    height: 500px;
+    margin-top: 50px;
+}
+
+#menu ul{
+    position: absolute;
+    width: inherit;
+    height: auto;
+    margin: 0px;
+    background-color: white;
+}
+
+#menu ul li{
+    list-style-type: none;
+    width: 200px;
+    height: 30px;
+    margin: 6px;
+    padding: 2px;
+    margin-left: 10px;
+    background-color: lightgrey;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    font-family: serif;
+}
+
+#vlineg{
+    position: absolute;
+    width: 3px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 300px;
+    background-color: grey;
+}
+
+#vlineb{
+    position: absolute;
+    width: 3px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 303px;
+    background-color:cadetblue;
+}
+
+a{
+    text-decoration: none !important;
+    color: black !important;
+}
+
+#content{
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 350px;
+    background-color: cornflowerblue;
+}
+
+#footer{
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    margin-top: 550px;
+    background-color: grey;
+}
