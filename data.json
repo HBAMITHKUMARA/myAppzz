@@ -1,0 +1,86 @@
+[
+    {
+        "firstname":"FIRST NAME",
+        "middlename":"MIDDLE NAME",
+        "lastname":"LAST NAME",
+        "dateofbirth":"DD/MM/YYYY",
+        "language":"LANGUAGE",
+        "presentaddress":"PRESENT ADDRESS"
+    },
+    {
+        "degree":"DEGREE",
+        "instituion":"INSTITUTION",
+        "university":"UNIVERSITY",
+        "year":"YEAR",
+        "score":"SCORE"
+    },
+    {
+        "organisation":"ORGANISATION",
+        "designation":"DESIGNATION",
+        "technologies":"TECHNOLOGIES",
+        "project":"PROJECT",
+        "startingdate":"DD/MM/YYYY",
+        "endingdate":"DD/MM/YYYY"
+    },
+    {
+        "certification":"CERTIFICATION",
+        "organisation":"ORGANISATION",
+        "technologies":"TECHNOLOGIES",
+        "version":"VERSION",
+        "tools":"TOOLS",
+        "year":"YEAR"
+    },
+    {
+        "workshop":"WORKSHOP",
+        "organisedby":"ORGANISEDBY",
+        "technologies":"TECHNOLOGIES",
+        "tools":"TOOLS",
+        "year":"YEAR",
+        "description":"DESCRIPTION"
+    },
+    {
+        "skill":"SKILL",
+        "type":"TYPE",
+        "experience":"EXPERIENCE",
+        "rating":"RATING",
+        "projects":"PROJECTS"
+    },
+    {
+        "achievement":"ACHIEVEMENT",
+        "description":"DESCRIPTION"
+    },
+    {
+        "father":"FATHER NAME",
+        "mother":"MOTHER NAME",
+        "hometown":"HOMETOWN",
+        "languages":"LANGUAGE",
+        "strengths":"STRENGTH",
+        "hobbies":"HOBBIES",
+        "dreams":"DREAMS",
+        "aboutlife":"ABOUT LIFE"
+    },
+    {
+        "network":"NETWORK",
+        "link":"LINK"
+    }
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -3,36 +3,56 @@
     <h2>This is completely optional!!!!</h2>
     <table>
         <tr>
+            <th>Feedback On</th>
+            <th>Rating</th>
+        </tr>
+        <tr>
             <td>Attitude</td>
-            <td></td>
+            <td>
+                <select ng-model="attitude" ng-options="num for num in feedbackoptions"></select>
+            </td>
         </tr>
         <tr>
             <td>Aptitude</td>
-            <td></td>
+            <td>
+                <select ng-model="aptitude" ng-options="num for num in feedbackoptions"></select>
+            </td>
         </tr>
         <tr>
             <td>Reasoning</td>
-            <td></td>
+            <td>
+                <select ng-model="reasoning" ng-options="num for num in feedbackoptions"></select>
+            </td>
         </tr>
         <tr>
             <td>Verbal</td>
-            <td></td>
+            <td>
+                <select ng-model="verbal" ng-options="num for num in feedbackoptions"></select>
+            </td>
         </tr>
         <tr>
             <td>Communicaiton</td>
-            <td></td>
+            <td>
+                <select ng-model="communication" ng-options="num for num in feedbackoptions"></select>
+            </td>
         </tr>
         <tr>
             <td>Situation Handling</td>
-            <td></td>
+            <td>
+                <select ng-model="situationhandling" ng-options="num for num in feedbackoptions"></select>
+            </td>
         </tr>
         <tr>
             <td>Team Player</td>
-            <td></td>
+            <td>
+                <select ng-model="teamplayer" ng-options="num for num in feedbackoptions"></select>
+            </td>
         </tr>
         <tr>
             <td>Overall</td>
-            <td></td>
+            <td>
+                <select ng-model="overall" ng-options="num for num in feedbackoptions"></select>
+            </td>
         </tr>
     </table>
 </div>
